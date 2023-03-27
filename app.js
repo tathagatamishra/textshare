@@ -18,7 +18,7 @@ app.use(express.json());
 const DB = process.env.DATABASE
 
 
-mongoose.set('strictQuery', true)
+// mongoose.set('strictQuery', true)
 
 mongoose.connect(DB, {
     useUnifiedTopology: true,
